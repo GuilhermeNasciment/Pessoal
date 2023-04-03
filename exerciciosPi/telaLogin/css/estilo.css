@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Geneva, sans-serif;
+  background-color: black;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+.header {
+  border-bottom: 2px #32b9cd solid;
+}
+
+.header .container {
+  justify-content: space-between;
+}
+
+.header a {
+  text-decoration: none;
+  color: #e3b062;
+}
+
+.agora {
+  font-weight: 800;
+}
+.navbar {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+.titulo {
+  color: #32b9cd;
+  width: fit-content;
+  font-weight: 500;
+}
+
+.banner {
+  height: fit-content;
+  padding: 40px 0;
+  color: white;
+  background-image: url(../assets/bg-jelly-fish-para_outras_pags.png);
+  background-size: cover;
+}
+
+.banner .containerBanner {
+  background-color: rgb(235, 234, 234);
+  height: 300px;
+  width: 400px;
+  border-radius: 8px;
+  color: rgb(224, 123, 138);
+}
+
+.banner .containerBanner .tituloLogin {
+  text-align: center;
+}
+
+.banner .containerBanner .input-form {
+  text-align: center;
+  height: 30px;
+  width: 200px;
+  border-radius: 8px;
+  border: 2px solid #32b9cd;
+}
+
+.final {
+  background-color: #32b9cd;
+  color: white;
+  height: 157px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.final p {
+  text-align: center;
+}
+
+.containerBanner .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.texto-form {
+  margin-right: 150px;
+}
+
+.form .botaoEntrar {
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+  background-color: #e6005a;
+  color: white;
+  border-radius: 8px;
+}
+
+.botao {
+  margin-top: 10px;
+}
